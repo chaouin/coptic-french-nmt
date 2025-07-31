@@ -60,7 +60,7 @@ The following models were used and/or fine-tuned during our four experiments:
 - [Helsinki-NLP/opus-mt-tc-bible-big-mul-mul](https://huggingface.co/Helsinki-NLP/opus-mt-tc-bible-big-mul-mul)
 - [mattiadc/hiero-transformer](https://huggingface.co/mattiadc/hiero-transformer)
 - [megalaa/coptic-english-translator](https://huggingface.co/megalaa/coptic-english-translator)
-- [google/mt5-small](https://huggingface.co/google/mt5-small)
+- [google-t5/t5-base](https://huggingface.co/google-t5/t5-base)
 
 ---
 
