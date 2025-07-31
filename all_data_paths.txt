@@ -1,0 +1,128 @@
+./evaluation data/evaluation_data_noisy_10.csv
+./evaluation data/galatians/galatians_coptic_3versions_romanized.csv
+./evaluation data/galatians/galatians_coptic_en.csv
+./evaluation data/galatians/french/galatians_crampon.csv
+./evaluation data/galatians/french/galatians_segond.csv
+./evaluation data/galatians/french/galatians_darby.csv
+./evaluation data/galatians/galatians_coptic_3versions.csv
+./evaluation data/hebrews/hebrews_coptic_3versions.csv
+./evaluation data/hebrews/hebrews_coptic_en.csv
+./evaluation data/hebrews/french/hebrews_darby.csv
+./evaluation data/hebrews/french/hebrews_crampon.csv
+./evaluation data/hebrews/french/hebrews_segond.csv
+./evaluation data/hebrews/hebrews_coptic_3versions_romanized.csv
+./evaluation data/mark/mark_coptic_en.csv
+./evaluation data/mark/mark_coptic_3versions.csv
+./evaluation data/mark/french/mark_segond.csv
+./evaluation data/mark/french/mark_darby.csv
+./evaluation data/mark/french/mark_crampon.csv
+./evaluation data/mark/mark_coptic_3versions_romanized.csv
+./evaluation data/evaluation_data_noisy_30.csv
+./evaluation data/evaluation_data_noisy_100.csv
+./evaluation data/corinthians/1corinthians_coptic_en.csv
+./evaluation data/corinthians/1corinthians_coptic_3versions.csv
+./evaluation data/corinthians/1corinthians_coptic_3versions_romanized.csv
+./evaluation data/corinthians/french/1corinthians_darby.csv
+./evaluation data/corinthians/french/1corinthians_crampon.csv
+./evaluation data/corinthians/french/1corinthians_segond.csv
+./evaluation data/evaluation_data_noisy_50.csv
+./evaluation data/evaluation_data.csv
+./evaluation data/evaluation_data_cop_en.csv
+./experiment 1/generated translations/generated_translations_evaluation_data_all_methods.csv
+./experiment 1/evaluation/evaluation scores/generated_translations_evaluation_data_all_methods_other_scores.csv
+./experiment 1/evaluation/evaluation scores/summary_best_model_per_metric.csv
+./experiment 1/evaluation/evaluation scores/generated_translations_evaluation_data_all_methods_bleurt.csv
+./baseline/generated translations/generated_translations_megalaa_baseline.csv
+./baseline/generated translations/generated_translations_hiero_baseline.csv
+./baseline/generated translations/generated_translations_t5_baseline.csv
+./baseline/evaluation/evaluation scores/summary_baseline_models.csv
+./baseline/evaluation/evaluation scores/generated_translations_t5_baseline_bleurt.csv
+./baseline/evaluation/evaluation scores/generated_translations_megalaa_baseline_bleurt.csv
+./baseline/evaluation/evaluation scores/generated_translations_hiero_baseline_other_scores.csv
+./baseline/evaluation/evaluation scores/generated_translations_hiero_baseline_bleurt.csv
+./baseline/evaluation/evaluation scores/generated_translations_megalaa_baseline_other_scores.csv
+./baseline/evaluation/evaluation scores/generated_translations_t5_baseline_other_scores.csv
+./baseline/data/evaluation_data_cop_en_romanized.csv
+./baseline/data/evaluation_data_eng_fr.csv
+./baseline/data/test_data.json
+./data preparation/segond/coptic_parallel_corpus_fr_segond_clean_romanized.csv
+./data preparation/segond/removed_verses_segond.csv
+./data preparation/segond/coptic_parallel_corpus_fr_segond.csv
+./data preparation/segond/coptic_parallel_corpus_fr_segond_clean.csv
+./data preparation/coptic only/coptic_corpus.csv
+./data preparation/darby/removed_verses_darby.csv
+./data preparation/darby/coptic_parallel_corpus_fr_darby_clean.csv
+./data preparation/darby/coptic_parallel_corpus_fr_darby_clean_romanized.csv
+./data preparation/darby/coptic_parallel_corpus_fr_darby.csv
+./data preparation/training data/train_clean_data.csv
+./data preparation/crampon/coptic_parallel_corpus_fr_crampon.csv
+./data preparation/crampon/removed_verses_crampon.csv
+./data preparation/crampon/coptic_parallel_corpus_fr_crampon_clean.csv
+./data preparation/crampon/coptic_parallel_corpus_fr_crampon_clean_romanized.csv
+./experiment 2/generated translations/generated_translations_evaluation_data_all_finetuned_models.csv
+./experiment 2/generated translations/generated_translations_evaluation_data_3_finetuned_models.csv
+./experiment 2/evaluation/evaluation scores/generated_translations_evaluation_data_all_finetuned_models_other_scores.csv
+./experiment 2/evaluation/evaluation scores/generated_translations_evaluation_data_all_finetuned_models_bleurt.csv
+./experiment 2/evaluation/evaluation scores/summary_best_model_per_metric.csv
+./experiment 2/evaluation/evaluation scores/only 3 models/generated_translations_evaluation_data_3_finetuned_models_bleurt.csv
+./experiment 2/evaluation/evaluation scores/only 3 models/generated_translations_evaluation_data_3_finetuned_models_other_scores.csv
+./experiment 3/generated translations/opus/generated_translations_exp3_opus_segond.csv
+./experiment 3/generated translations/opus/generated_translations_exp3_opus_crampon.csv
+./experiment 3/generated translations/opus/generated_translations_evaluation_data_all_models.csv
+./experiment 3/generated translations/opus/generated_translations_exp3_opus_darby.csv
+./experiment 3/generated translations/hiero/generated_translations_exp_3_hiero.csv
+./experiment 3/generated translations/hiero/generated_translations_exp_3_corinthians.csv
+./experiment 3/evaluation/evaluation scores/opus/generated_translations_evaluation_data_all_models_other_scores.csv
+./experiment 3/evaluation/evaluation scores/opus/generated_translations_evaluation_data_all_models_bleurt.csv
+./experiment 3/evaluation/evaluation scores/opus/detailed_model_performance_per_testset.csv
+./experiment 3/evaluation/evaluation scores/opus/summary_best_model_per_metric.csv
+./experiment 3/evaluation/evaluation scores/3 models opus/generated_translations_evaluation_data_3_models_bleurt.csv
+./experiment 3/evaluation/evaluation scores/3 models opus/generated_translations_evaluation_data_3_models_other_scores.csv
+./experiment 3/evaluation/evaluation scores/hiero/generated_translations_exp_3_hiero_bleurt.csv
+./experiment 3/evaluation/evaluation scores/hiero/detailed_model_performance_per_testset.csv
+./experiment 3/evaluation/evaluation scores/hiero/generated_translations_exp_3_hiero_other_scores.csv
+./experiment 3/evaluation/evaluation scores/hiero/summary_best_model_per_metric.csv
+./experiment 3/data/train_darby_data.csv
+./experiment 3/data/train_crampon_data.csv
+./experiment 3/data/train_segond_data.csv
+./experiment 4/generated translations/opus/evaluation_data_noisy_10_all_models_generated_translations.csv
+./experiment 4/generated translations/opus/evaluation_data_all_models_generated_translations.csv
+./experiment 4/generated translations/opus/evaluation_data_noisy_50_all_models_generated_translations.csv
+./experiment 4/generated translations/opus/evaluation_data_noisy_30_all_models_generated_translations.csv
+./experiment 4/generated translations/opus/evaluation_data_noisy_100_all_models_generated_translations.csv
+./experiment 4/generated translations/hiero/generated_translations_exp_4_hiero_noisy_30.csv
+./experiment 4/generated translations/hiero/generated_translations_exp_4_hiero_noisy_50.csv
+./experiment 4/generated translations/hiero/generated_translations_exp_4_hiero_noisy_100.csv
+./experiment 4/generated translations/hiero/generated_translations_exp_4_hiero_noisy_10.csv
+./experiment 4/generated translations/hiero/generated_translations_exp_4_hiero_clean.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_50_all_models_generated_translations_bleurt.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_100_all_models_generated_translations_other_scores.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_all_models_generated_translations_bleurt.csv
+./experiment 4/evaluation/evaluation scores/opus/detailed_model_performance_per_dataset.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_50_all_models_generated_translations_other_scores.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_30_all_models_generated_translations_other_scores.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_10_all_models_generated_translations_bleurt.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_100_all_models_generated_translations_bleurt.csv
+./experiment 4/evaluation/evaluation scores/opus/best_worst_dataset_per_model_metric.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_all_models_generated_translations_other_scores.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_30_all_models_generated_translations_bleurt.csv
+./experiment 4/evaluation/evaluation scores/opus/summary_best_model_per_metric.csv
+./experiment 4/evaluation/evaluation scores/opus/evaluation_data_noisy_10_all_models_generated_translations_other_scores.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_clean_other_scores.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_50_bleurt.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_100_bleurt.csv
+./experiment 4/evaluation/evaluation scores/hiero/detailed_model_performance_per_dataset.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_30_bleurt.csv
+./experiment 4/evaluation/evaluation scores/hiero/best_worst_dataset_per_model_metric.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_10_other_scores.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_clean_bleurt.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_10_bleurt.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_50_other_scores.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_30_other_scores.csv
+./experiment 4/evaluation/evaluation scores/hiero/summary_best_model_per_metric.csv
+./experiment 4/evaluation/evaluation scores/hiero/generated_translations_exp_4_hiero_noisy_100_other_scores.csv
+./experiment 4/data/train_noisy_30_data.csv
+./experiment 4/data/train_noisy_50_data.csv
+./experiment 4/data/train_noisy_100_data.csv
+./experiment 4/data/train_noisy_10_data.csv
+./experiment 4/data/train_clean_data.csv
