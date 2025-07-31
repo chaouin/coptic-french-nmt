@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --account=def-richy
+#SBATCH --gres=gpu:a100_3g.20gb:1
+#SBATCH --mem=24G
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-00:00:00
+#SBATCH --output=/home/chaouin/projects/def-richy/chaouin/coptic-fr-translation/logs/exp3_generate_translations_hiero_%j.out
+#SBATCH --error=/home/chaouin/projects/def-richy/chaouin/coptic-fr-translation/logs/exp3_generate_translations_hiero_%j.err
+#SBATCH --mail-user=nasma.chaoui.1@ulaval.ca
+#SBATCH --mail-type=BEGIN,END,FAIL
+
+echo "Début du job à $(date)"
+echo "Job lancé sur $(hostname)"
+
+source ~/py311/bin/activate
+nvidia-smi
+
+# Aller dans le répertoire du script
+cd ~
+cd "projects/def-richy/chaouin/coptic-fr-translation/experiment 3/generated translations/hiero"
+echo "Répertoire courant : $(pwd)"
+
+# Lancer l'entraînement
+python "$(pwd)/generate_coptic_fr_translations_hiero_comparison.py"
+
+echo "Fin du job à $(date)"
