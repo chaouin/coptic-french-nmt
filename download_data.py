@@ -19,8 +19,7 @@ for path in paths:
             repo_id=REPO_ID,
             filename=path,
             repo_type="dataset",
-            local_dir=".",
-            local_dir_use_symlinks=False
+            local_dir="."
         )
     except Exception as e:
         print(f"⚠️ Failed to download {path}: {e}")
