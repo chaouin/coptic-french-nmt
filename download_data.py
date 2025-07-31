@@ -1,19 +1,17 @@
+import os
 from huggingface_hub import hf_hub_download
 
 REPO_ID = "chaouin/coptic-french-translation-data"
 PATH_LIST_FILE = "all_data_paths.txt"
 
-# Load and clean paths from the txt file
 with open(PATH_LIST_FILE, "r", encoding="utf-8") as f:
-    paths = [
-        line.strip().lstrip("./")
-        for line in f
-        if line.strip().endswith(".csv") or line.strip().endswith(".json")
-    ]
+    paths = [line.strip().lstrip("./") for line in f if line.strip().endswith((".csv", ".json"))]
 
-# Download each file
 for path in paths:
     try:
+        # Ensure parent directory exists
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+
         print(f"⬇️ Downloading: {path}")
         hf_hub_download(
             repo_id=REPO_ID,
