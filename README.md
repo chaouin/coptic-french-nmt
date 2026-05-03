@@ -3,7 +3,7 @@
 This repository contains the full codebase used for the experiments presented in the paper:
 
 **Neural Machine Translation for Coptic–French: Strategies for Low-Resource Ancient Languages**  
-**📄 [Read the full article - TBA]()**
+**📄 [Read the full article](https://arxiv.org/abs/2508.10683)**
 
 ## 📦 Project Overview
 
@@ -106,8 +106,4 @@ You can adapt the script for your own data by modifying the `INPUT_CSV` and `MOD
 
 ## 📚 Citation
 
-If you use this code or dataset, please cite our paper:
-
-```
-TBA
-```
+If you use this code or dataset, please cite our paper.
